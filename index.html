@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>灶间 ZAOJIAN · 新派亚洲料理</title>
+  <meta name="description" content="灶间，一家开在愚园路的新派亚洲小馆。时令食材、炭火慢煮，把熟悉的家常味做得再讲究一点。">
+  <meta name="theme-color" content="#f7f2e8">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/images/hero.jpg" as="image">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p><span class="topbar-dot" aria-hidden="true"></span>小雪 · 新菜上市</p>
+      <p class="topbar-meta">每日 11:00 – 22:00 · 周一店休 · 愚园路 108 号</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="灶间首页">
+        <span class="brand-mark" aria-hidden="true">灶</span>
+        <span class="brand-text">灶间<small>ZAOJIAN KITCHEN</small></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="主导航">
+        <a href="#menu">今日菜单</a>
+        <a href="#story">关于灶间</a>
+        <a href="#visit">到店信息</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-outline header-book" href="#visit">预订座位</a>
+        <button class="cart-toggle" id="cart-toggle" type="button" aria-label="打开餐篮，当前 0 件" aria-controls="cart-drawer" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6 8h12l-1 12H7L6 8Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span class="cart-badge" id="cart-badge" aria-hidden="true">0</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="打开菜单" aria-controls="main-nav" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>新派亚洲料理 · 上海愚园路</p>
+          <h1>一餐一饭，<br><em>皆是人间烟火。</em></h1>
+          <p class="hero-lede">我们相信，好好吃饭是一件值得认真对待的小事。时令食材，炭火慢煮，把熟悉的家常味，做得再讲究一点。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">看看今日菜单
+              <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 10h11m-4-4 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#visit">预订座位</a>
+          </div>
+          <ul class="hero-meta">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21s6.5-5.4 6.5-10.5a6.5 6.5 0 1 0-13 0C5.5 15.6 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+              静安区愚园路 108 号
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              每日 11:00 – 22:00
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-frame">
+            <img src="assets/images/hero.jpg" alt="炭火牛肋排与时蔬拼盘" width="1600" height="1066" fetchpriority="high">
+          </div>
+          <div class="hero-seal" aria-hidden="true">
+            <span>灶间</span>
+            <small>SINCE 2018</small>
+          </div>
+          <div class="hero-feature">
+            <span class="hero-feature-label">今日主厨推荐</span>
+            <span class="hero-feature-name">炭火牛肋排</span>
+            <span class="hero-feature-price">¥88</span>
+          </div>
+          <p class="hero-caption" aria-hidden="true">果木炭火 · 现点现烤</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>时令</span><i>·</i><span>手作</span><i>·</i><span>慢煮</span><i>·</i><span>烟火气</span><i>·</i>
+        <span>时令</span><i>·</i><span>手作</span><i>·</i><span>慢煮</span><i>·</i><span>烟火气</span><i>·</i>
+        <span>时令</span><i>·</i><span>手作</span><i>·</i><span>慢煮</span><i>·</i><span>烟火气</span><i>·</i>
+        <span>时令</span><i>·</i><span>手作</span><i>·</i><span>慢煮</span><i>·</i><span>烟火气</span><i>·</i>
+      </div>
+    </div>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>MENU · 今日菜单</p>
+            <h2>顺着季节，<em>好好吃饭。</em></h2>
+          </div>
+          <p class="section-note">菜单随季节调整，每日现备现做。<br>堂食 · 自取均可，欢迎外带。</p>
+        </div>
+
+        <div class="menu-filter reveal" role="group" aria-label="菜单分类">
+          <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+          <button class="filter-btn" type="button" data-filter="signature" aria-pressed="false">招牌</button>
+          <button class="filter-btn" type="button" data-filter="starter" aria-pressed="false">前菜</button>
+          <button class="filter-btn" type="button" data-filter="main" aria-pressed="false">主食</button>
+          <button class="filter-btn" type="button" data-filter="sweet" aria-pressed="false">甜品 · 饮品</button>
+        </div>
+
+        <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+        <noscript><p class="menu-noscript">菜单需要启用 JavaScript 才能查看，欢迎致电 021&#8209;6288&nbsp;1088 咨询。</p></noscript>
+        <p class="menu-foot">* 图片为菜品示意图，实际出品以当日食材为准。如有过敏原需求，请提前告知店员。</p>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="container story-grid">
+        <div class="story-media reveal">
+          <img src="assets/images/interior.jpg" alt="灶间餐厅内景：深色木质空间与暖黄灯光" width="1200" height="800" loading="lazy">
+          <p class="story-media-note">愚园路店 · 晚市</p>
+        </div>
+        <div class="story-copy reveal">
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-rule" aria-hidden="true"></span>OUR STORY · 关于灶间</p>
+          <h2>把家常味，<br><em>做得认真一点。</em></h2>
+          <p>2018 年冬天，我们在愚园路支起第一口灶。没有复杂的菜系，只有一锅每天现熬的高汤、一块认真腌制的肉，和几道做得比家里更讲究的家常菜。</p>
+          <p>食材跟着节气走。春天吃笋，夏天吃瓜，秋天贴秋膘，冬天围着一锅热汤。厨房是开放式的，你能听见锅气，也能看见每一道菜出锅的样子。</p>
+          <dl class="story-stats">
+            <div><dt>2018</dt><dd>年，第一口灶</dd></div>
+            <div><dt>12h</dt><dd>每日慢熬高汤</dd></div>
+            <div><dt>32</dt><dd>道时令家常菜</dd></div>
+          </dl>
+          <p class="story-sign">—— 灶间后厨</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-info reveal">
+          <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>VISIT · 到店</p>
+          <h2>来坐坐，<br><em>吃顿热乎的。</em></h2>
+          <ul class="visit-list">
+            <li>
+              <span class="visit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M12 21s6.5-5.4 6.5-10.5a6.5 6.5 0 1 0-13 0C5.5 15.6 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+              </span>
+              <div>
+                <h3>地址</h3>
+                <p>上海市静安区愚园路 108 号<br>地铁 2 / 11 号线江苏路站 5 号口，步行约 6 分钟</p>
+              </div>
+            </li>
+            <li>
+              <span class="visit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h3>营业时间</h3>
+                <p>周二至周日：11:00 – 14:30 / 17:00 – 22:00<br>周一店休，法定节假日请留意公告</p>
+              </div>
+            </li>
+            <li>
+              <span class="visit-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M7 4h3l1.5 4.5-2 1.5a12 12 0 0 0 4.5 4.5l1.5-2L20 17v3a1 1 0 0 1-1 1C10.6 21 3 13.4 3 5a1 1 0 0 1 1-1h3Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <h3>电话</h3>
+                <p><a href="tel:+862162881088">021&#8209;6288&nbsp;1088</a>（10:30 后接听）</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="map-card" role="img" aria-label="示意图：灶间位于愚园路 108 号，靠近江苏路地铁站">
+            <svg viewBox="0 0 460 220" aria-hidden="true" focusable="false">
+              <path class="map-road" d="M-20 60h210c40 0 60 20 60 60s20 60 60 60h170"/>
+              <path class="map-road" d="M120-20v70c0 30 20 50 50 50s50 20 50 50v90"/>
+              <path class="map-road map-road-thin" d="M-20 170h140M300 20h180M360 -20v260"/>
+              <path class="map-route" d="M60 185c40 0 55-30 85-55s50-40 95-40"/>
+              <circle class="map-station" cx="60" cy="185" r="6"/>
+              <text class="map-label" x="70" y="205">江苏路站</text>
+              <g class="map-pin">
+                <circle cx="245" cy="95" r="20"/>
+                <circle cx="245" cy="95" r="7"/>
+                <path d="M245 76c-11 0-20 9-20 20 0 15 20 34 20 34s20-19 20-34c0-11-9-20-20-20Z"/>
+              </g>
+              <text class="map-label map-label-strong" x="245" y="145" text-anchor="middle">灶间 · 愚园路 108 号</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="reserve-card reveal" id="reserve-card">
+          <div class="reserve-inner" id="reserve-form-wrap">
+            <p class="reserve-kicker">RESERVATION</p>
+            <h3>预订座位</h3>
+            <p class="reserve-note">留下信息，我们会致电与您确认。超过 8 人请直接致电。</p>
+            <form id="reserve-form" novalidate>
+              <div class="form-row">
+                <label class="field">
+                  <span>姓名</span>
+                  <input type="text" name="name" autocomplete="name" placeholder="怎么称呼您" required>
+                </label>
+                <label class="field">
+                  <span>手机</span>
+                  <input type="tel" name="phone" autocomplete="tel" inputmode="numeric" placeholder="11 位手机号" maxlength="11" required>
+                </label>
+              </div>
+              <div class="form-row">
+                <label class="field">
+                  <span>日期</span>
+                  <input type="date" name="date" required>
+                </label>
+                <label class="field">
+                  <span>人数</span>
+                  <select name="guests">
+                    <option>1 位</option>
+                    <option selected>2 位</option>
+                    <option>3 位</option>
+                    <option>4 位</option>
+                    <option>5 位</option>
+                    <option>6 位</option>
+                    <option>7 位</option>
+                    <option>8 位</option>
+                  </select>
+                </label>
+              </div>
+              <div class="form-row">
+                <label class="field">
+                  <span>时间</span>
+                  <select name="time" id="reserve-time"></select>
+                </label>
+                <label class="field">
+                  <span>备注 <em>选填</em></span>
+                  <input type="text" name="note" placeholder="忌口、生日、靠窗…">
+                </label>
+              </div>
+              <p class="form-error" id="form-error" role="alert" hidden></p>
+              <button class="btn btn-primary btn-full" type="submit">提交预订</button>
+              <p class="form-hint">提交即表示同意我们仅将以上信息用于本次订座联系。</p>
+            </form>
+          </div>
+
+          <div class="reserve-success" id="reserve-success" role="status" hidden>
+            <span class="success-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>预订已收到</h3>
+            <p id="reserve-summary"></p>
+            <p class="reserve-note">我们会尽快致电确认。若 30 分钟内未接到电话，请拨打 021&#8209;6288&nbsp;1088。</p>
+            <button class="btn btn-ghost btn-full" type="button" id="reserve-again">再订一桌</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <span class="brand-mark brand-mark-light" aria-hidden="true">灶</span>
+        <div>
+          <p class="footer-name">灶间 <span>ZAOJIAN</span></p>
+          <p class="footer-tag">新派亚洲料理 · 把家常味做得认真一点</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div>
+          <p class="footer-heading">逛逛</p>
+          <a href="#menu">今日菜单</a>
+          <a href="#story">关于灶间</a>
+          <a href="#visit">到店信息</a>
+        </div>
+        <div>
+          <p class="footer-heading">到店</p>
+          <p>愚园路 108 号</p>
+          <p>每日 11:00 – 22:00</p>
+          <p>周一店休</p>
+        </div>
+        <div>
+          <p class="footer-heading">联系</p>
+          <a href="tel:+862162881088">021&#8209;6288&nbsp;1088</a>
+          <p>hello@zaojian.example</p>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 灶间 ZAOJIAN. 保留所有权利。</p>
+      <p>本页面为界面演示，预订与订单数据仅保存在本地浏览器。</p>
+    </div>
+  </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" inert>
+    <div class="cart-head">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span>YOUR BASKET</p>
+        <h2 id="cart-title">餐篮 <span class="cart-count-label" id="cart-count-label">0</span></h2>
+      </div>
+      <button class="icon-btn" id="cart-close" type="button" aria-label="关闭餐篮">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="cart-body" id="cart-body"></div>
+    <div class="cart-foot">
+      <div class="cart-total-row">
+        <span>合计</span>
+        <strong id="cart-total">¥0</strong>
+      </div>
+      <p class="cart-note">堂食 / 自取 · 到店支付 · 不收取服务费</p>
+      <button class="btn btn-primary btn-full" id="checkout-btn" type="button" disabled>去结算</button>
+      <p class="cart-demo">演示界面：结算不会产生真实订单。</p>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
